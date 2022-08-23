@@ -1,0 +1,29 @@
+.nav-bar{
+    background-color:rgba(235, 183, 98, 0.1);
+}
+.home-banner{
+    background-color:rgba(235, 183, 98, 0.1);
+    height: 100vh;
+    display: flex;
+    padding-inline: 8em;
+    justify-content: center;
+    align-items: center;
+
+}
+.span-class{
+    color: #EBB762;
+}
+.img-div{
+    padding-left: 5em;
+}
+.title{
+    font-size: 4em;
+}
+.div-button{
+    background-color: #EBB762;
+    border: none;
+    padding-inline: 1em;
+    padding-block: 0.5em;
+    border-top-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+}
