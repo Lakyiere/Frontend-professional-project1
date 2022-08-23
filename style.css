@@ -1,29 +1,33 @@
-.nav-bar{
-    background-color:rgba(235, 183, 98, 0.1);
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;1,300;1,500&display=swap");
+body {
+  font-family: "KoHo", sans-serif;
 }
-.home-banner{
-    background-color:rgba(235, 183, 98, 0.1);
-    height: 100vh;
-    display: flex;
-    padding-inline: 8em;
-    justify-content: center;
-    align-items: center;
-
+.nav-bar {
+  background-color: rgba(235, 183, 98, 0.1);
 }
-.span-class{
-    color: #EBB762;
+.home-banner {
+  background-color: rgba(235, 183, 98, 0.1);
+  height: 100vh;
+  display: flex;
+  padding-inline: 8em;
+  justify-content: center;
+  align-items: center;
 }
-.img-div{
-    padding-left: 5em;
+.span-class {
+  color: #ebb762;
 }
-.title{
-    font-size: 4em;
+.img-div {
+  padding-left: 5em;
 }
-.div-button{
-    background-color: #EBB762;
-    border: none;
-    padding-inline: 1em;
-    padding-block: 0.5em;
-    border-top-right-radius: 0.8rem;
-    border-bottom-left-radius: 0.8rem;
+.title {
+  font-size: 4em;
+  font-weight: 500;
+}
+.div-button {
+  background-color: #ebb762;
+  border: none;
+  padding-inline: 1em;
+  padding-block: 0.5em;
+  border-top-right-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
 }
