@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;1,300;1,500&display=swap");
 body {
   font-family: "KoHo", sans-serif;
+  font-style: normal;
 }
 .nav-bar {
   background-color: rgba(235, 183, 98, 0.1);
@@ -38,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 5em;
-  background: #FAFAFA;
+  background: #fafafa;
 
   /* border-width: 1px; */
   /* border-color: #ebb762;
@@ -65,19 +66,15 @@ border-style: solid;
 border-color: #EBB762; */
 }
 .first-section {
-  font-family: "KoHo";
-  font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #263238;
   padding-top: 3em;
-  padding-right: 2em;
+  padding-right: 5em;
 }
 .second-section {
-  font-family: "KoHo";
-  font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 88px;
@@ -88,3 +85,77 @@ border-color: #EBB762; */
   text-align: right !important;
   padding-top: 2em;
 }
+.our-work-div {
+  justify-content: center;
+  text-align: center;
+  padding: 5em;
+  background: #FAFAFA;
+}
+.work-div {
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #263238;
+}
+.work-par {
+  text-align: left;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 67px;
+  letter-spacing: 0.03em;
+  color: #263238;
+}
+.stars {
+  transform: matrix(0.94, 0.31, -0.36, 0.95, 0, 0);
+}
+.work-par2 {
+  text-align: left;
+  padding-top: 15em;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #263238;
+}
+.trophy {
+  transform: rotate(19.52deg);
+}
+.work-second {
+  padding-top: 12em;
+}
+.work-third {
+  text-align: left;
+}
+.card-body {
+  text-align: left;
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  left: 0px;
+  top: 0px;
+
+  background: #f7e2c0;
+  border: 1px solid #ebb762;
+  border-radius: 5px;
+}
+.card-text1 {
+  text-align: left;
+  padding-top: 0.6em;
+  font-size: 85px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #263238;
+}
+.card1-par {
+  text-align: left;
+  padding-top: 2em;
+}
+/* .vector{
+    padding-left: 8em;
+transform: rotate(-32.06deg);
+height: 50%;
+width: 50%;
+} */
+
