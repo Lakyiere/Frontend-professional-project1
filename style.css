@@ -12,6 +12,7 @@ body {
   padding-inline: 8em;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid #ebb762;
 }
 .span-class {
   color: #ebb762;
@@ -30,4 +31,57 @@ body {
   padding-block: 0.5em;
   border-top-right-radius: 0.8rem;
   border-bottom-left-radius: 0.8rem;
+}
+.choose-section {
+  display: flex;
+  padding-inline: 8em;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+  /* border-width: 1px; */
+  /* border-color: #ebb762;
+    border-left-color: n;
+    border-bottom-color: none;
+    border-right-color: none;
+    border-style: solid; */
+}
+.border {
+  box-sizing: border-box;
+  border-color: #ebb762 !important;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  border-width: 1.5px 0px;
+  /* position: absolute;
+width: 1410px;
+height: 398px;
+left: 255px;
+top: 965px;
+background: #FAFAFA;
+border-width: 1.5px 0px;
+border-style: solid;
+border-color: #EBB762; */
+}
+.first-section {
+  font-family: "KoHo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #263238;
+  padding-top: 3em;
+  padding-right: 2em;
+}
+.second-section {
+  font-family: "KoHo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 88px;
+  letter-spacing: 0.03em;
+  color: #263238;
+}
+.small-text {
+  text-align: right !important;
+  padding-top: 2em;
 }
