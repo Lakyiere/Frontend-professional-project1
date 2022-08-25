@@ -89,7 +89,7 @@ border-color: #EBB762; */
   justify-content: center;
   text-align: center;
   padding: 5em;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 .work-div {
   text-align: left;
@@ -130,11 +130,12 @@ border-color: #EBB762; */
 }
 .card-body {
   text-align: left;
-  position: absolute;
-  width: 350px;
-  height: 250px;
-  left: 0px;
-  top: 0px;
+  background: #fafafa;
+  /* position: absolute; */
+  /* width: 350px;
+  height: 250px; */
+  /* left: 0px;
+  top: 0px; */
 
   background: #f7e2c0;
   border: 1px solid #ebb762;
@@ -152,16 +153,47 @@ border-color: #EBB762; */
   text-align: left;
   padding-top: 2em;
 }
+.box-section {
+  background: #fafafa;
+}
 /* .vector{
     padding-left: 8em;
 transform: rotate(-32.06deg);
 height: 50%;
 width: 50%;
 } */
-.box-div{
-    background: #fafafa !important;
+.box-div {
+  background: #fafafa !important;
 }
-.service-div{
-    padding-top: 20em;
-  background: #FAFAFA;  
+.service-div {
+  padding-top: 30em;
+  background: #fafafa;
+}
+.card-row {
+  padding-top: -20em;
+}
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #263238;
+  padding-top: 1.5em;
+}
+.service-img {
+  width: 350px;
+  height: 250px;
+  left: 825px;
+  top: 2898px;
+
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.value-text {
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 80px;
+  letter-spacing: 0.03em;
+  color: #263238;
 }
