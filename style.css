@@ -222,3 +222,14 @@ width: 50%;
 .icon-portion {
   padding-left: 5em;
 }
+.partner-section{
+    background: #fafafa;
+    padding-top: 10em;
+}
+.partner-text{
+    font-size: 48px;
+line-height: 88px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #263238;
+}
