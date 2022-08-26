@@ -173,7 +173,7 @@ width: 50%;
 .card-row {
   padding-top: -20em;
 }
-.title {
+.title1 {
   font-weight: 600;
   font-size: 24px;
   line-height: 30px;
@@ -222,14 +222,65 @@ width: 50%;
 .icon-portion {
   padding-left: 5em;
 }
-.partner-section{
-    background: #fafafa;
-    padding-top: 10em;
+.partner-section {
+  background: #fafafa;
+  padding-top: 10em;
 }
-.partner-text{
-    font-size: 48px;
-line-height: 88px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #263238;
+.partner-text {
+  font-size: 48px;
+  line-height: 88px;
+  letter-spacing: 0.03em;
+  color: #263238;
+}
+.partner-par {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #263238;
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+.partner-img {
+  padding-top: 5em;
+}
+.contact-div {
+  border-top: 1px solid #ebb762;
+  border-bottom: 1px solid #ebb762;
+  background: rgba(235, 183, 98, 0.1);
+}
+.contact-text {
+  padding-top: 1.5em;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0.03em;
+  color: #263238;
+}
+.div-button1 {
+  padding-top: 1.5em;
+  background-color: #ebb762;
+  border: none;
+  padding-inline: 1em;
+  padding-block: 0.5em;
+  border-bottom-left-radius: 0.8rem;
+}
+.btn-contact {
+  padding-top: 2em;
+}
+.contact-img {
+  padding-top: 3em;
+}
+.list-unstyled {
+  text-decoration: none;
+  list-style: none;
+}
+.footer-div {
+  padding-top: 5em;
+  background: #ebb762;
+}
+.footer-logo {
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+.terms {
+  text-align: center;
 }
