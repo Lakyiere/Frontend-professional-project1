@@ -109,13 +109,15 @@ border-color: #EBB762; */
 }
 .stars {
   transform: matrix(0.94, 0.31, -0.36, 0.95, 0, 0);
+  
 }
 .work-par2 {
   text-align: left;
   padding-top: 18em;
+  padding-left: 4.5em;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 26px;
   letter-spacing: 0.03em;
   color: #263238;
 }
@@ -123,8 +125,7 @@ border-color: #EBB762; */
   transform: rotate(19.52deg);
 }
 .work-second {
-  justify-content: left;
-  text-align: left;
+  
   padding-top: 12em;
   height: 350px;
   width: 300px;
