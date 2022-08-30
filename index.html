@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg nav-bar">
+    <nav class="navbar navbar-expand-lg nav-bar d-none d-lg-block">
       <div class="container-fluid flex-lg-row justify-content-around">
         <a class="navbar-brand" href="#"
           ><img src="images/Icon.png" alt="DesignCompanyicon" />
@@ -43,7 +43,42 @@
           </div>
         </div>
         <div>
-          <button class="div-button">Contact Us</button>
+          <button class="div-button d-none d-lg-block">Contact Us</button
+          ><!--display breakpoint one-->
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar for mobile screen -->
+    <nav class="navbar navbar-expand-lg nav-bar d-block d-lg-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images/Icon.png" alt="DesignCompanyicon" />
+          DesignCompany</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#"
+              ><span class="span-class">Home </span></a
+            >
+            <a class="nav-link" href="#our work">Our Work</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#partners">Partners</a>
+            <div>
+              <button class="div-button">Contact Us</button>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -64,9 +99,16 @@
           <div class="col-lg-6">
             <img
               src="images/Image (1).png"
-              class="img-div"
+              class="img-div d-none d-md-block"
               alt="bannerimage"
-              width="400"
+              width="450"
+            />
+            <!-- for mobile screens -->
+            <img
+              src="images/Image (1).png"
+              class="header-img d-block d-md-none"
+              alt="bannerimage"
+              width="200"
             />
           </div>
         </div>
@@ -110,13 +152,20 @@
             </div>
           </div>
           <div class="col-lg-4 work-second">
-            <span class="stars w-50"
+            <span class="stars w-50 d-none d-md-block"
+              ><img src="images/rocketstars.png" alt="stars"
+            /></span>
+            <!-- for mobile -->
+            <span class="stars d-block d-md-none"
               ><img src="images/rocketstars.png" alt="stars"
             /></span>
           </div>
 
           <div class="col-lg-4 work-third">
-            <span class="trophy"
+            <span class="trophy d-none d-md-block"
+              ><img src="images/trophy.png" alt="trophy"
+            /></span>
+            <span class="trophy d-block d-md-none"
               ><img src="images/trophy.png" alt="trophy"
             /></span>
 
@@ -180,7 +229,7 @@
             <img
               src="images/Image pallete.png"
               alt="image pallete"
-              class="service-img"
+              class="service-img d-none d-md-block"
             />
           </div>
           <div class="col-lg-7 icon-portion">
@@ -253,7 +302,9 @@
             approved to help your growth for any problems, support requests, new
             features, or general inquiries
           </p>
-          <div class="logos d-flex row row-cols-2 row-cols-lg-6 text-center">
+          <div
+            class="logos d-flex g-4 row row-cols-2 row-cols-lg-6 text-center"
+          >
             <div class="col">
               <img src="images/Company logo.png" alt="logo" />
             </div>
@@ -273,7 +324,7 @@
               <img src="images/Company logo5.png" alt="logo5" />
             </div>
           </div>
-          <div class="partner-img">
+          <div class="partner-img d-none d-lg-block">
             <img
               src="images/Market launch-pana 1.png"
               alt="Market launch-pana"
@@ -292,7 +343,7 @@
         <div class="btn-contact">
           <button class="div-button1">Contact Us</button>
         </div>
-        <div class="contact-img">
+        <div class="contact-img d-none d-lg-block">
           <img src="images/Group 4.png" alt="" />
         </div>
       </div>
@@ -303,7 +354,7 @@
       <div class="container">
         <div class="row g-3">
           <div class="col-lg-3">
-            <div>
+            <div class="text-center text-md-left">
               <a class="navbar-brand" href="#"
                 ><img src="images/Icon.png" alt="DesignCompanyicon" />
                 DesignCompany</a
@@ -312,7 +363,7 @@
           </div>
 
           <div class="col-lg-6 text-lg-center flex-lg-row">
-            <ul class="list-inline">
+            <ul class="list-inline text-center text-md-left">
               <li class="list-inline-item">Home</li>
               <li class="list-inline-item">Our Work</li>
               <li class="list-inline-item">Services</li>
@@ -328,13 +379,13 @@
           </div>
         </div>
         <div class="row g-2 justify-content-center footer-logo">
-          <div class="col-lg-9">
+          <div class="col-lg-9 text-center text-md-left">
             <p class="m-0 text-muted">
               <small>&copy; 2022 DesignCompany.</small>
             </p>
           </div>
           <div class="col-lg-3 text-lg-center flex-lg-row">
-            <ul class="list-inline">
+            <ul class="list-inline text-center text-md-left">
               <li class="list-inline-item">
                 <img src="images/Youtube.png" alt="Youtube" />
               </li>

@@ -147,7 +147,7 @@ border-color: #EBB762; */
 .card-text1 {
   text-align: left;
   padding-top: 0.6em;
-  font-size: 85px;
+  font-size: 60px;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #263238;
@@ -286,4 +286,57 @@ width: 50%;
 }
 .terms {
   text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+  .header-img{
+    padding-top: 2rem;
+  }
+  .title{
+    font-size: 2.5rem;
+  }
+  .home-banner{
+    padding-inline: 1rem;
+  }
+  .choose-section{
+    padding-inline: 1rem;
+  }
+  .second-section{
+    line-height: normal;
+  }
+  .our-work-div{
+    padding: 1rem;
+  }
+  .work-par2{
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .card-text1{
+    font-size: 40px;
+  }
+  .core-text{
+    line-height: normal;
+  }
+  .icon-portion{
+    padding-left: 2rem;
+  }
+  .partner-text{
+    line-height: normal;
+  }
+  .partner-par{
+    padding-bottom: 0px;
+  }
+  .logos{
+    padding-bottom: 2rem;
+  }
+  .btn-contact{
+    padding-bottom: 2rem;
+  }
+  .work-second{
+    padding-top: 0px;
+  }
+  .stars > img{
+    width: 250px;
+  }
 }
